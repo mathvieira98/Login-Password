@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Formulario</title>
+
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Introdução</legend>
+
+            <label for="">Email</label>
+            <br>
+
+            <input type="email" name="Email">
+            <br><br>
+
+            <label for="filhos">Quantidade de filhos</label>
+            <br>
+            <input type="number" id="filhos" min="0" max="1000">
+            <br><br>
+            <input type="date" min="2022-01-15" max="2022-12-15">
+            <br><br><br>
+            possui atividade extra?
+
+            <label>
+                <input type="radio" name="atvExtra">sim
+            </label>
+
+            <label>
+                <input type="radio" name="atvExtra">nao
+            </label>
+        
+            <input type="submit" value="mandar">
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Área de interesse</legend>
+
+            <input type="checkbox" >HTML
+            <input type="checkbox" >CSS
+            <input type="checkbox" >JS
+            <input type="checkbox" >PYTHON
+            <input type="checkbox" >JAVA
+            
+        </fieldset>
+
+        <br><br><br>
+        <input type="submit" value="mandar">
+    </form>
+</body>
+
+</html>
